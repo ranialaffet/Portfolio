@@ -1,834 +1,841 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="fr">
+
+<head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Index - iPortfolio Bootstrap Template</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+    <title>Rania Laffet</title>
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+    </style>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
 
     <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
-  </head>
+    
+</head>
 
-  <body class="index-page">
+<body class="index-page">
     <header id="header" class="header dark-background d-flex flex-column">
-      <i class="header-toggle d-xl-none bi bi-list"></i>
+        <i class="header-toggle d-xl-none bi bi-list"></i>
+        <div class="profile-img">
+            <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle" />
+        </div>
 
-      <div class="profile-img">
-        <img
-          src="assets/img/my-profile-img.jpg"
-          alt=""
-          class="img-fluid rounded-circle"
-        />
-      </div>
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+            <h1 class="sitename">Rania Laffet</h1>
+        </a>
 
-      <a
-        href="index.html"
-        class="logo d-flex align-items-center justify-content-center"
-      >
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Rania Laffet</h1>
-      </a>
+        <div class="social-links text-center">
+            <a href="https://www.linkedin.com/in/rania-laffet-247ba0267/" target="_blank" class="linkedin"><i
+                    class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/ranialaffet" class="github" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://www.facebook.com/rania.laffet" class="facebook" target="_blank"><i
+                    class="bi bi-facebook"></i></a>
+        </div>
 
-      <div class="social-links text-center">
-        <a
-          href="https://www.linkedin.com/in/rania-laffet-247ba0267/"
-          class="linkedin"
-          ><i class="bi bi-linkedin"></i
-        ></a>
-        <a href="https://github.com/ranialaffet" class="github"
-          ><i class="bi bi-github"></i
-        ></a>
-        <a href="https://www.facebook.com/rania.laffet" class="facebook"
-          ><i class="bi bi-facebook"></i
-        ></a>
-      </div>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li>
-            <a href="#hero" class="active"
-              ><i class="bi bi-house navicon"></i>Acceuil</a
-            >
-          </li>
-          <li>
-            <a href="#about"><i class="bi bi-person navicon"></i> À propos</a>
-          </li>
-          <li>
-            <a href="#resume"
-              ><i class="bi bi-file-earmark-text navicon"></i> CV</a
-            >
-          </li>
-          <li>
-            <a href="#portfolio"
-              ><i class="bi bi-images navicon"></i> Projets</a
-            >
-          </li>
-          <li>
-            <a href="#contact"
-              ><i class="bi bi-envelope navicon"></i> Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li>
+                    <a href="#hero" class="active"><i class="bi bi-house navicon"></i>Acceuil</a>
+                </li>
+                <li>
+                    <a href="#about"><i class="bi bi-person navicon"></i> À propos</a>
+                </li>
+                <li>
+                  <a href="#competences"><i class="bi bi-lightning navicon"></i> Compétences</a>
+              </li>
+                <li>
+                    <a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> CV</a>
+                </li>
+                <li>
+                    <a href="#portfolio"><i class="bi bi-images navicon"></i> Projets</a>
+                </li>
+                <li>
+                  <a href="#realisations"><i class="bi bi-trophy navicon"></i> Réalisations</a>
+              </li>
+                <li>
+                    <a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main class="main">
-      <!-- Hero Section -->
-      <section id="hero" class="hero section dark-background">
-        <img src="assets/img/hero-bg.jpeg" alt="" data-aos="fade-in" class="" />
+        <!-- Hero Section -->
+        <section id="hero" class="hero section dark-background">
+            <img src="assets/img/hero-bg.jpeg" alt="" data-aos="fade-in" class="" />
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <h2>Rania Laffet</h2>
-          <p>
-            Je suis
-            <span class="typed" data-typed-items="Développeuse, étudiante"
-              >Designer</span
-            ><span
-              class="typed-cursor typed-cursor--blink"
-              aria-hidden="true"
-            ></span
-            ><span
-              class="typed-cursor typed-cursor--blink"
-              aria-hidden="true"
-            ></span>
-          </p>
-        </div>
-      </section>
-      <!-- /Hero Section -->
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <h2>Rania Laffet</h2>
+                <p class="mb-5">
+                    Je suis
+                    <span class="typed"
+                        data-typed-items="Développeuse, étudiante, bénévole">Développeuse</span><span
+                        class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span
+                        class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+                </p>
+                <a href="assets/img/CV_RANIA_LAFFET.pdf" download="CV_RANIA_LAFFET.pdf">
+                    Télécharger mon CV
+                </a>
+            </div>
+        </section>
+        <!-- /Hero Section -->
 
-      <!-- About Section -->
-      <section id="about" class="about section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>À propos</h2>
-          <p>
-           
-          </p>
-        </div>
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>À propos</h2>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4 justify-content-center">
+                    <div class="col-lg-4">
+                        <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="col-lg-8 content">
+                        <h2>Développeuse informatique</h2>
+                        <p class="fst-italic py-3">
+                            Passionnée par l&apos;informatique, j&apos;ai un esprit analytique
+                            et aime concevoir des solutions innovantes pour relever des défis
+                            techniques. Curieuse et rigoureuse, je m&apos;adapte facilement aux
+                            nouveaux environnements et apprécie le travail en équipe.
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <strong>Naissance:</strong> <span>22 Avril 2004</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <strong>Email:</strong>
+                                        <span>rania.laffet@gmail.com</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <strong>Téléphone:</strong> <span>+33 (0)7 51 51 19 89</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                                        <span>20</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <strong>Diplômes:</strong> <span>Licence, BUT Informatique</span>
+                                    </li>
+                                    <li>
+                                        <i class="bi bi-chevron-right"></i>
+                                        <strong>Pays:</strong> <span>Paris, France</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="py-3">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /About Section -->
+
+        <!-- Skills Section -->
+        <section id="competences" class="skills section light-background">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Mes Compétences</h2>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div>
+                    <h3 class="skill-title">Langages De Programmation</h3>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>C</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>C++</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Python</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>PHP</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Java</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>JavaScript</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>HTML</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>CSS</button>
+                </div>
+
+                <div>
+                    <h3 class="skill-title">Frameworks</h3>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Codeigniter 3</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Bootstrap</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Tailwind CSS</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Laravel</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Flask</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Spring Boot</button>
+                </div>
+
+                <div>
+                    <h3 class="skill-title">Bases De Données</h3>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>MySQL</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>PLSQL</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Oracle</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>PostgreSQL</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Redis</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>MongoDB</button>
+                </div>
+
+                <div>
+                    <h3 class="skill-title">Machine Learning</h3>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>TensorFlow</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Scikit-learn</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>PyTorch</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Keras</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Pandas</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>NumPy</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Matplotlib</button>
+                </div>
+
+                <div>
+                    <h3 class="skill-title">Outils Divers</h3>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Docker</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Jenkins</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Figma</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>github</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>GitLab</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>JaamSim</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Omnet++</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Excel</button>
+                </div>
+
+                <div>
+                    <h3 class="skill-title">Compétences Transversales</h3>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Résolution des problèmes</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Souci du détail</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Autonomie</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Adaptabilité</button>
+                    <button class="btn btn-secondary mb-2 me-1" disabled>Travail en équipe</button>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- /Skills Section -->
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Mon CV</h2>
+                <p>
+                </p>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="resume-title">Education</h3>
+                        <h4>Double diplômes en Science informatique</h4>
+                        <div class="resume-item">
+                            <h4>BUT informatique</h4>
+                            <h4>2024 - 2025</h4>
+                            <p>
+                                <em>IUT de Villetaneuse, Université Sorbonne Paris Nord,
+                                    France</em>
+                            </p>
+                            <ul>
+                                <li>
+                                    Accent sur les travaux pratiques en autonomie et sur la
+                                    gestion de projets en équipe.
+                                </li>
+                                <li>
+                                    Acquisition des notions
+                                    fondamentales de DevOps, notamment le test, la maintenance
+                                    applicative, la virtualisation et l&apos;automatisation de la
+                                    chaîne de production.
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Education Item -->
+
+                        <div class="resume-item">
+                            <h4>Licence en sciences informatique</h4>
+                            <h4>2022 - 2024</h4>
+                            <p>
+                                <em>Institut supérieur d'informatique (ISI), Université Tunis
+                                    ElManar, Tunisie</em>
+                            </p>
+
+                            <ul>
+                                <li>
+                                    Formation pluridisciplinaire couvrant les différents aspects
+                                    des sciences informatiques.
+                                </li>
+                                <li>
+                                    Introduction à des domaines variés
+                                    tels que l'indexation des données, la vision par ordinateur,
+                                    l'intelligence artificielle et les entrepôts de données.
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Education Item -->
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="resume-title">Experience</h3>
+
+                        <!-- Stage -->
+                        <div class="resume-item">
+                            <h4>Stage ingénieure développement Méthodes & Outils pour la Maquette Numérique</h4>
+                            <h4>Avril- Août 2025</h4>
+                            <p><em>Moissy-Cramayel, Ile-De-France, France </em></p>
+                            <ul>
+                                <li>
+                                    Accompagnement sur le plan technique des outils destinés à l'automatisation et la
+                                    validation des maquettes numériques
+                                </li>
+                                <li>
+                                    Utilisation de Python, GitLab, XML et Excel
+                                </li>
+                                <li>
+                                    Intégration des données dans les environnements PLM-CAO, notamment CATIA
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End stage Item -->
+
+                        <!-- Stage -->
+                        <div class="resume-item">
+                            <h4>Stage développeur analyste</h4>
+                            <h4>Juin - Juillet 2024</h4>
+                            <p><em>Tunis, Tunisie </em></p>
+                            <ul>
+                                <li>
+                                    Conception et développement d'un générateur de requêtes SQL pour faciliter
+                                    l'interrogation de bases de données et l'extraction d'informations.
+                                </li>
+                                <li>
+                                    Développement d'applications web dynamiques et responsives avec CodeIgniter 3 (MVC),
+                                    Bootstrap et JavaScript/AJAX.
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Edn Stage Item -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Resume Section -->
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section light-background">
+          
+          <!-- Section Title -->
+          <div class="container section-title" data-aos="fade-up">
+            <h2>Mes projets</h2>
+          </div>
         <!-- End Section Title -->
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4 justify-content-center">
-            <div class="col-lg-4">
-              <img
-                src="assets/img/my-profile-img.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-            <div class="col-lg-8 content">
-              <h2>Développeuse informatique</h2>
-              <p class="fst-italic py-3">
-                Passionnée par l&apos;informatique, j&apos;ai un esprit analytique
-                et aime concevoir des solutions innovantes pour relever des défis
-                techniques. Curieuse et rigoureuse, je m&apos;adapte facilement aux
-                nouveaux environnements et apprécie le travail en équipe.
-              </p>
-              <div class="row">
-                <div class="col-lg-6">
-                  <ul>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <strong>Naissance:</strong> <span>22 Avril 2004</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <strong>Email:</strong>
-                      <span>rania.laffet@gmail.com</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <strong>Téléphone:</strong> <span>+33 7 51 51 19 89</span>
-                    </li>
-                  </ul>
+            <div class="container">
+                <div class="isotope-layout">
+                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                      
+                      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-conten h-100 position-relative card">
+                                <img src="assets/img/portfolio/app-1.jpg" class="card-img-top" alt="Plantaneuse" />
+                                <div class="card-body mt-4">
+                                    <h4 class="card-title"><b>Plantaneuse</b></h4>
+                                    <p class="card-text">Un projet en équipe de site web de boutique de plantes
+                                        contenant une bare de recherche optimisée.
+                                    </p>
+                                    <div>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Laravel</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>PHP</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Flask</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Python</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Tailwind</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>JavaScript</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>PostgreSQL</button>
+                                    </div>
+                                    <div class="position-absolute bottom-0 end-0 p-2">
+                                        <a href="https://github.com/isicparis/ISIcPARIS" target="_blank"><i
+                                                class="bi bi-link-45deg" style="font-size: 1.5em;"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-conten h-100 position-relative card">
+                                <img src="assets/img/portfolio/app-2.jpg" class="card-img-top" alt="SQL Generator" />
+                                <div class="card-body mt-4">
+                                    <h4 class="card-title"><b>My SQL Generator</b></h4>
+                                    <p class="card-text">Une interface web intuitive pour faciliter la création de
+                                        requêtes SQL et la visualisation de leurs resultats.
+                                    </p>
+                                    <div>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 "
+                                            disabled>Codeigniter</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>PHP</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 "
+                                            disabled>JavaScript</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>jQuery</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Bootstrap</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>MySQL</button>
+                                    </div>
+                                    <div class="position-absolute bottom-0 end-0 p-2">
+                                        <a href="https://github.com/ranialaffet/SQL-Query-Builder" target="_blank"><i
+                                                class="bi bi-link-45deg" style="font-size: 1.5em;"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-conten h-100 position-relative card">
+                                <img src="assets/img/portfolio/app-5.jpg" class="card-img-top"
+                                    alt="App de gestion d'employées" />
+                                <div class="card-body mt-4">
+                                    <h4 class="card-title"><b>Gestionnaire Employées</b></h4>
+                                    <p class="card-text">Une application web java pour la gestion des données des
+                                        employées.
+                                    </p>
+                                    <div>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Spring
+                                            Boot</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Spring</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Java</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Maven</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Thymeleaf</button>
+                                    </div>
+
+                                    <div class="position-absolute bottom-0 end-0 p-2">
+                                        <a href="https://github.com/ranialaffet/employee-management-app"
+                                            target="_blank"><i class="bi bi-link-45deg"
+                                                style="font-size: 1.5em;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-conten h-100 position-relative card">
+                                <img src="assets/img/portfolio/app-6.jpg" class="card-img-top" alt="Calculatrice" />
+                                <div class="card-body my-4">
+                                    <h4 class="card-title"><b>Calculatrice</b></h4>
+                                    <p class="card-text">Une interface web structurée selon une architecture MVC, avec
+                                        une API HTTP pour la communication entre le frontend et le backend.
+                                    </p>
+                                    <div>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>HTML</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Java</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Maven</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Servlet</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Serveur
+                                            Application - Tomcat</button>
+                                        
+                                    </div>
+                                    <div class="position-absolute bottom-0 end-0 p-2">
+                                        <a href="https://github.com/ranialaffet/Calculatrice-Java" target="_blank"><i
+                                                class="bi bi-link-45deg" style="font-size: 1.5em;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-conten h-100 position-relative card">
+                                <img src="assets/img/portfolio/app-3.jpg" class="card-img-top" alt="Taquin 3*3" />
+                                <div class="card-body mt-4">
+                                    <h4 class="card-title"><b>Puzzle Taquin 3x3</b></h4>
+                                    <p class="card-text">Un algorithme pour la resolution du puzzle Taquin par la
+                                        recherche en profondeur.
+                                    </p>
+                                    <div>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Python</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>BFS</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>A*</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>DFS</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>POO</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Tkinter </button>
+                                    </div>
+                                    <div class="position-absolute bottom-0 end-0 p-2">
+                                        <a href="https://github.com/ranialaffet/Taquin-Solveur-AStar-BFS"
+                                            target="_blank"><i class="bi bi-link-45deg"
+                                                style="font-size: 1.5em;"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <div class="portfolio-conten h-100 position-relative card">
+                                <img src="assets/img/portfolio/app-4.jpg" class="card-img-top" alt="Taquin 3*3" />
+                                <div class="card-body mt-4">
+                                    <h4 class="card-title"><b>Segment Tree Plotter</b></h4>
+                                    <p class="card-text">Un algorithme pour le dessin de la structure Segment Tree a
+                                        partir d'une liste. Cet algorithme presente encore une utilisation de cette
+                                        structure pour la somme par intervalles.
+                                    </p>
+                                    <div>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Python</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Pygame</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>Pillow</button>
+                                        <button class="btn btn-secondary btn-sm mb-2 me-1 " disabled>POO</button>
+                                    </div>
+
+                                    <div class="position-absolute bottom-0 end-0 p-2">
+                                        <a href="https://github.com/ranialaffet/Segment-tree-representation"
+                                            target="_blank"><i class="bi bi-link-45deg"
+                                                style="font-size: 1.5em;"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <!-- End Portfolio Item -->
+                        </div>
+                        <!-- End Portfolio Container -->
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                  <ul>
-                    <li>
-                      <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
-                      <span>20</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <strong>Diplômes:</strong> <span>Licence, BUT</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <strong>Pays:</strong> <span>Paris, France</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <p class="py-3">
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /About Section -->
+        </section>
+        <!-- /Portfolio Section -->
 
-      <!-- Skills Section -->
-      <section id="skills" class="skills section light-background">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Skills</h2>
-          <p>
-          </p>
-        </div>
-        <!-- End Section Title -->
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row skills-content skills-animation">
-            <div class="col-lg-6">
-              <div class="progress">
-                <span class="skill"
-                  ><span>HTML</span> <i class="val">90%</i></span
-                >
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-              <!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"
-                  ><span>CSS</span> <i class="val">70%</i></span
-                >
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="70"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-              <!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"
-                  ><span>JavaScript</span> <i class="val">75%</i></span
-                >
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-              <!-- End Skills Item -->
-            </div>
-
-            <div class="col-lg-6">
-              <div class="progress">
-                <span class="skill"
-                  ><span>PHP</span> <i class="val">80%</i></span
-                >
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="80"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-              <!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"
-                  ><span>Python</span> <i class="val">90%</i></span
-                >
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-              <!-- End Skills Item -->
-
-              <div class="progress">
-                <span class="skill"
-                  ><span>C++</span> <i class="val">80%</i></span
-                >
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="80"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-              <!-- End Skills Item -->
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Skills Section -->
-
-      <!-- Resume Section -->
-      <section id="resume" class="resume section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Resume</h2>
-          <p>
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Synthèse de profil</h3>
-
-              <div class="resume-item pb-0">
-                <h4>Rania Laffet</h4>
+        <section id="realisations" class="portfolio section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Mes réalisations</h2>
                 <p>
-                  <em
-                    >Étudiante en troisième année de BUT Informatique,
-                    passionnée par l&apos;innovation et la résolution de
-                    problèmes, avec une forte capacité d&apos;analyse et
-                    d'adaptation. Expérience dans le développement
-                    d&apos;applications et la gestion de projets techniques, de
-                    la conception à la mise en œuvre.</em
-                  >
+                    Découvrez ici un aperçu de mes réalisations, témoignant de mon parcours diversifié et de mon
+                    engagement personnel et professionnel.
                 </p>
-              </div>
-              <!-- Edn Resume Item -->
-
-              <h3 class="resume-title">Experience</h3>
-              <div class="resume-item">
-                <h4>Stage développeur analyste</h4>
-                <h5>Juin 2024 - Juillet 2024</h5>
-                <p><em>Tunis, Tunisie </em></p>
-                <ul>
-                  <li>
-                    Conception et développement d'une application web de
-                    générateur de requêtes SQL pour interroger les bases de
-                    données facilement.
-                  </li>
-                  <li>
-                    Developpement d'une interface responsive avec Bootstrap
-                  </li>
-                  <li>
-                    Gestion des interactions et requêtes avec JavaScript et AJAX
-                  </li>
-                  <li>Structuration en MVC avec CodeIgniter 3</li>
-                </ul>
-              </div>
-              <!-- Edn Resume Item -->
             </div>
+            <!-- End Section Title -->
 
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <h3 class="resume-title">Education</h3>
-              <h4>Double diplômes en Science informatique</h4>
-              <div class="resume-item">
-                <h4>BUT informatique</h4>
-                <h5>2024 - 2025</h5>
-                <p>
-                  <em
-                    >IUT de Villetaneuse, Université Sorbonne Paris Nord,
-                    France</em
-                  >
-                </p>
-                <p>
-                  Accent sur les travaux pratiques en autonomie et sur la
-                  gestion de projets en équipe. Acquisition des notions
-                  fondamentales de DevOps, notamment le test, la maintenance
-                  applicative, la virtualisation et l&apos;automatisation de la
-                  chaîne de certifion.
-                </p>
-              </div>
-              <!-- End Resume Item -->
+            <div class="container">
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry"
+                    data-sort="original-order">
+                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                        <li data-filter="*" class="filter-active">Tout</li>
+                        <li data-filter=".filter-certif">Certifications</li>
+                        <li data-filter=".filter-asso">Vie Associative</li>
+                        <li data-filter=".filter-lang">Langues</li>
+                        <li data-filter=".filter-podcast">Podcasts</li>
+                    </ul>
+                    <!-- End Portfolio Filters -->
 
-              <div class="resume-item">
-                <h4>Licence en sciences informatique</h4>
-                <h5>2022 - 2024</h5>
-                <p>
-                  <em
-                    >Institut supérieur d'informatique (ISI), Université Tunis
-                    ElManar, Tunisie</em
-                  >
-                </p>
-                <p>
-                  Formation pluridisciplinaire couvrant les différents aspects
-                  des sciences informatiques. Introduction à des domaines variés
-                  tels que l'indexation des données, la vision par ordinateur,
-                  l'intelligence artificielle et les entrepôts de données.
-                </p>
+                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-certif">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/certif-1.jpg" class="img-fluid" alt="" />
+                                <div class="portfolio-info">
+                                    <h4>Supervised Machine Learning</h4>
+                                    <p>Exloration des algorithmes de classification et de regression</p>
+                                    <a href="assets/img/portfolio/certif-1.jpg" title="certif 1"
+                                        data-gallery="portfolio-gallery-certif" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="https://coursera.org/share/dff9243774b76ba30c1f10cbff9f5b4c"
+                                        title="More Details" class="details-link" target="_blank"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-asso">
+                          <div class="portfolio-content h-100">
+                              <img src="assets/img/portfolio/asso-1.jpeg" class="img-fluid" alt="" />
+                              <div class="portfolio-info">
+                                  <h4>Scouts</h4>
+                                  <p>Participation à un Camp International Haarlem Jamborette 2023 aux Pays-Bas</p>
+                                  <a href="assets/img/portfolio/asso-1.jpeg" title="Haarlem Jamborette - Aout 2023"
+                                      data-gallery="portfolio-gallery-asso" class="glightbox preview-link"><i
+                                          class="bi bi-zoom-in"></i></a>
+                                  <a href="https://www.haarlemjamborette.nl/"
+                                      title="More Details" class="details-link" target="_blank"><i
+                                          class="bi bi-link-45deg"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- End Portfolio Item -->
+
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-certif">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/certif-2.jpg" class="img-fluid" alt="" />
+                                <div class="portfolio-info">
+                                    <h4>Advanced Learning Algorithms</h4>
+                                    <p>Exploration des algorithle de machine learning</p>
+                                    <a href="assets/img/portfolio/certif-2.jpg" title="Advanced Learning Algorithms"
+                                        data-gallery="portfolio-gallery-certif" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="https://coursera.org/share/748b73cbc5e433e9387a50c3b3828eb2"
+                                        title="More Details" class="details-link" target="_blank"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-certif">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/certif-3.jpg" class="img-fluid" alt="" />
+                                <div class="portfolio-info">
+                                    <h4>Agile and Scrum Fundamentals</h4>
+                                    <p></p>
+                                    <a href="assets/img/portfolio/certif-3.jpg" title="Agile and Scrum Fundamentals"
+                                        data-gallery="portfolio-gallery-certif" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="https://courses.edx.org/certificates/17a4350e3a1c4acba67fc83d57c77380"
+                                        title="More Details" class="details-link" target="_blank"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-asso">
+                          <div class="portfolio-content h-100">
+                              <img src="assets/img/portfolio/asso-3.jpeg" class="img-fluid" alt="" />
+                              <div class="portfolio-info">
+                                  <h4>TCPC</h4>
+                                  <p>Tunisian Collegiate Programming Contest 2023</p>
+                                  <a href="assets/img/portfolio/asso-3.jpeg" title="Tunisian Collegiate Programming Contest 2023"
+                                      data-gallery="portfolio-gallery-asso" class="glightbox preview-link"><i
+                                          class="bi bi-zoom-in"></i></a>
+                                  <a href="https://www.facebook.com/photo/?fbid=744439141022507&set=pcb.744440677689020"
+                                      title="More Details" class="details-link" target="_blank"><i
+                                          class="bi bi-link-45deg"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- End Portfolio Item -->
+
+                      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-asso">
+                        <div class="portfolio-content h-100">
+                            <img src="assets/img/portfolio/asso-2.jpeg" class="img-fluid" alt="" />
+                            <div class="portfolio-info">
+                                <h4>Compétition de programmation</h4>
+                                <p>Remporter le premier prix dans une compétition dédié aux femmes Code Her Ways</p>
+                                <a href="assets/img/portfolio/asso-2.jpeg" title="Remporter le premier Prix dans une compétition dédié aux femmes Code Her Ways"
+                                    data-gallery="portfolio-gallery-asso" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                                <a href="https://www.instagram.com/p/C4nt2xPK2ZY/?img_index=1"
+                                    title="More Details" class="details-link" target="_blank"><i
+                                        class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-certif">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/certif-4.jpg" class="img-fluid" alt="" />
+                                <div class="portfolio-info">
+                                    <h4>Probability</h4>
+                                    <p>Un cours d'initiation aux probabilités</p>
+                                    <a href="assets/img/portfolio/certif-4.jpg" title="Probability"
+                                        data-gallery="portfolio-gallery-certif" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="https://courses.edx.org/certificates/eb672a30804c4c309b3997b5d6cc9ed3"
+                                        title="More Details" class="details-link" target="_blank"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-asso">
+                  <div class="portfolio-content h-100">
+                      <img src="assets/img/portfolio/asso-5.jpg" class="img-fluid" alt="" />
+                      <div class="portfolio-info">
+                          <h4>WEBCURE</h4>
+                          <p>Hackathon pour solutions médicales</p>
+                          <a href="assets/img/portfolio/asso-5.jpg" title="Remporter le troisième prix à WEBCURE - Hackathon pour solutions médicales"
+                              data-gallery="portfolio-gallery-asso" class="glightbox preview-link"><i
+                                  class="bi bi-zoom-in"></i></a>
+                          <a href="https://www.facebook.com/photo/?fbid=122197790414000710&set=pb.61550021305882.-2207520000"
+                              title="More Details" class="details-link" target="_blank"><i
+                                  class="bi bi-link-45deg"></i></a>
+                      </div>
+                  </div>
               </div>
-              <!-- End Resume Item -->
+              <!-- End Portfolio Item -->
+
+              
+
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lang">
+                    <div class="portfolio-content h-100">
+                        <img src="assets/img/portfolio/lang-1.jpg" class="img-fluid" alt="" />
+                        <div class="portfolio-info">
+                            <h4>Anglais - CLES B2</h4>
+                            <p>Certification en langue de l'enseignement supérieur - France</p>
+                            <a href="assets/img/portfolio/lang-1.jpg" title="Anglais - CLES B2"
+                                data-gallery="portfolio-gallery-lang" class="glightbox preview-link"><i
+                                    class="bi bi-zoom-in"></i></a>
+                            <a href="https://www.enseignementsup-recherche.gouv.fr/fr/certificat-de-competences-en-langues-de-l-enseignement-superieur-cles-87637"
+                                title="More Details" class="details-link" target="_blank"><i
+                                    class="bi bi-link-45deg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Portfolio Item -->
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-asso">
+                  <div class="portfolio-content h-100">
+                      <img src="assets/img/portfolio/asso-4.jpeg" class="img-fluid" alt="" />
+                      <div class="portfolio-info">
+                          <h4>ISI Event</h4>
+                          <p>Participation à l'organisation des evenements dans mon Université en Tunisie</p>
+                          <a href="assets/img/portfolio/asso-4.jpeg" title="Institut supérieur d'informatique"
+                              data-gallery="portfolio-gallery-asso" class="glightbox preview-link"><i
+                                  class="bi bi-zoom-in"></i></a>
+                          <a href="https://www.facebook.com/profile.php?id=61555747837950"
+                              title="More Details" class="details-link" target="_blank"><i
+                                  class="bi bi-link-45deg"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+                <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lang">
+                  <div class="portfolio-content h-100">
+                      <img src="assets/img/portfolio/lang-2.jpeg" class="img-fluid" alt="" />
+                      <div class="portfolio-info">
+                          <h4>Allemend - OSD B1</h4>
+                          <p>ÖSD Zertifikat Deutsch Österreich B1</p>
+                          <a href="assets/img/portfolio/lang-2.jpeg" title="ÖSD Zertifikat Deutsch Österreich B1"
+                              data-gallery="portfolio-gallery-lang" class="glightbox preview-link"><i
+                                  class="bi bi-zoom-in"></i></a>
+                          <a href="https://drive.google.com/file/d/12VIu3iNloDnaKLSWcPvZoaluNfYinwF8/view?usp=sharing"
+                              title="More Details" class="details-link" target="_blank"><i
+                                  class="bi bi-link-45deg"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              
+
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-podcast">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/portfolio/podcast-1.jpg" class="img-fluid" alt="" />
+                                <div class="portfolio-info">
+                                    <h4>Podcast Protection Données Personnelles</h4>
+                                    <p>Podcast de Securinets</p>
+                                    <a href="assets/img/portfolio/podcast-1.jpg"
+                                        title="Podcast Protection Données Personnelles"
+                                        data-gallery="portfolio-gallery-podcast" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="https://drive.google.com/file/d/1-XqQ4wEvAfWq6nskPnPIQOEqSUoxNY88/view?fbclid=IwY2xjawI4V1RleHRuA2FlbQIxMAABHYzlxU8-Hm-K6021XtG7IXYPtLAWngq2TqnPCke1UWsYddheyFhyY89pMg_aem_4yf0PBJ0t78XI0ZxyqcGhQ"
+                                        title="More Details" class="details-link" target="_blank"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                    </div>
+                    <!-- End Portfolio Container -->
+
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Resume Section -->
+        </section>
+        <!-- /Portfolio Section -->
 
-      <!-- Portfolio Section -->
-      <section id="portfolio" class="portfolio section light-background">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Portfolio</h2>
-          <p>
-            Voici un aperçu de quelques projets que j'ai réalisés, des certificats que j'ai obtenus et des podcasts auxquels j'ai participé.
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div
-            class="isotope-layout"
-            data-default-filter="*"
-            data-layout="masonry"
-            data-sort="original-order"
-          >
-            <ul
-              class="portfolio-filters isotope-filters"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Projets</li>
-              <li data-filter=".filter-certif">Certificats</li>
-              <li data-filter=".filter-podcast">Podcasts</li>
-
-              <!-- <li data-filter=".filter-books">Books</li> -->
-            </ul>
-            <!-- End Portfolio Filters -->
-
-            <div
-              class="row gy-4 isotope-container"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/app-1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Plantaneuse</h4>
-                    <p>Site de vente de plantes.</p>
-                    <a
-                      href="assets/img/portfolio/app-1.jpg"
-                      title="Plantaneuse"
-                      data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="https://github.com/isicparis/ISIcPARIS"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/app-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>My SQL Generator</h4>
-                    <p>Une interface pour la creation facile de requêtes.</p>
-                    <a
-                      href="assets/img/portfolio/app-2.jpg"
-                      title="App 2"
-                      data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="https://github.com/ranialaffet/SQL-Query-Builder"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/app-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Puzzle Taquin 3x3</h4>
-                    <p>Un algorithme pour la resolution du puzzle Taquin par la recherche en profondeur.</p>
-                    <a
-                      href="assets/img/portfolio/app-3.jpg"
-                      title="Puzzle Taquin 3x3"
-                      data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="https://github.com/ranialaffet/Taquin-Solveur-AStar-BFS"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/app-4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Segment Tree Plotter</h4>
-                    <p>Un algorithme pour le dessin de la structure Segment Tree a partir d'une liste.</p>
-                    <a
-                      href="assets/img/portfolio/app-4.jpg"
-                      title="Segment Tree Plotter"
-                      data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="#"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-certif"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/certif-1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Supervised MMachine Learning</h4>
-                    <p>Exloration des algorithmes de classification et de regression</p>
-                    <a
-                      href="assets/img/portfolio/certif-1.jpg"
-                      title="certif 1"
-                      data-gallery="portfolio-gallery-certif"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="https://coursera.org/share/dff9243774b76ba30c1f10cbff9f5b4c"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-certif"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/certif-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Advanced Learning Algorithms</h4>
-                    <p>Exploration des algorithle de machine learning</p>
-                    <a
-                      href="assets/img/portfolio/certif-2.jpg"
-                      title="certif 2"
-                      data-gallery="portfolio-gallery-certif"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="https://coursera.org/share/748b73cbc5e433e9387a50c3b3828eb2"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-certif"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/certif-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Agile and Scrum Fundamentals</h4>
-                    <p></p>
-                    <a
-                      href="assets/img/portfolio/certif-3.jpg"
-                      title="Agile and Scrum Fundamentals"
-                      data-gallery="portfolio-gallery-certif"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="https://courses.edx.org/certificates/17a4350e3a1c4acba67fc83d57c77380"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-certif"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/certif-4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Probability</h4>
-                    <p>Un cours d'initiation aux probabilités</p>
-                    <a
-                      href="assets/img/portfolio/certif-4.jpg"
-                      title="Probability"
-                      data-gallery="portfolio-gallery-certif"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="https://courses.edx.org/certificates/eb672a30804c4c309b3997b5d6cc9ed3"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-podcast"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/portfolio/podcast-1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Podcast Protection Données Personnelles</h4>
-                    <p>Podcast de Securinets</p>
-                    <a
-                      href="assets/img/portfolio/podcast-1.jpg"
-                      title="Podcast Protection Données Personnelles"
-                      data-gallery="portfolio-gallery-podcast"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="https://drive.google.com/file/d/1-XqQ4wEvAfWq6nskPnPIQOEqSUoxNY88/view?fbclid=IwY2xjawI4V1RleHRuA2FlbQIxMAABHYzlxU8-Hm-K6021XtG7IXYPtLAWngq2TqnPCke1UWsYddheyFhyY89pMg_aem_4yf0PBJ0t78XI0ZxyqcGhQ"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
+        <!-- Contact Section -->
+        <section id="contact" class="contact section light-background">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Contact</h2>
             </div>
-            <!-- End Portfolio Container -->
-          </div>
-        </div>
-      </section>
-      <!-- /Portfolio Section -->
+            <!-- End Section Title -->
 
-      <!-- Contact Section -->
-      <section id="contact" class="contact section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-        </div>
-        <!-- End Section Title -->
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4">
+                    <div class="col-lg-7 mx-auto">
+                        <div class="info-wrap">
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                                <div>
+                                    <h3>Addresse</h3>
+                                    <p>
+                                        Cité Internationale Universitaire de Paris, Ile De France,
+                                        France
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- End Info Item -->
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4">
-            <div class="col-lg-7 mx-auto">
-              <div class="info-wrap">
-                <div
-                  class="info-item d-flex"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                >
-                  <i class="bi bi-geo-alt flex-shrink-0"></i>
-                  <div>
-                    <h3>Addresse</h3>
-                    <p>
-                      Cité Internationale Universitaire de Paris, Ile De France,
-                      France
-                    </p>
-                  </div>
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                                <i class="bi bi-telephone flex-shrink-0"></i>
+                                <div>
+                                    <h3>Appelez moi</h3>
+                                    <p>+33 7 51 51 19 89</p>
+                                </div>
+                            </div>
+                            <!-- End Info Item -->
+
+                            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                                <i class="bi bi-envelope flex-shrink-0"></i>
+                                <div>
+                                    <h3>Envoyez moi un email</h3>
+                                    <p>rania.laffet@gmail.com</p>
+                                </div>
+                            </div>
+                            <!-- End Info Item -->
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.4826876337885!2d2.332985076469292!3d48.82105157129285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671debae2b1df%3A0x24fbc2fa8ea46e7b!2sCité%20internationale%20universitaire%20de%20Paris!5e0!3m2!1sfr!2sfr!4v1710100000000!5m2!1sfr!2sfr"
+                                frameborder="0" style="border: 0; width: 100%; height: 270px" allowfullscreen=""
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
                 </div>
-                <!-- End Info Item -->
-
-                <div
-                  class="info-item d-flex"
-                  data-aos="fade-up"
-                  data-aos-delay="300"
-                >
-                  <i class="bi bi-telephone flex-shrink-0"></i>
-                  <div>
-                    <h3>Appelez moi</h3>
-                    <p>+33 7 51 51 19 89</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <div
-                  class="info-item d-flex"
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                >
-                  <i class="bi bi-envelope flex-shrink-0"></i>
-                  <div>
-                    <h3>Envoyez moi un email</h3>
-                    <p>rania.laffet@gmail.com</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.4826876337885!2d2.332985076469292!3d48.82105157129285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671debae2b1df%3A0x24fbc2fa8ea46e7b!2sCité%20internationale%20universitaire%20de%20Paris!5e0!3m2!1sfr!2sfr!4v1710100000000!5m2!1sfr!2sfr"
-                  frameborder="0"
-                  style="border: 0; width: 100%; height: 270px"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                >
-                </iframe>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Contact Section -->
+        </section>
+        <!-- /Contact Section -->
     </main>
 
-    <footer id="footer" class="footer position-relative light-background">
-      <div class="container">
-        <div class="copyright text-center">
-          <p>
-            © <span>Copyright</span>
-            <strong class="px-1 sitename">iPortfolio</strong>
-            <span>All Rights Reserved</span>
-          </p>
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-      </div>
-    </footer>
 
     <!-- Scroll Top -->
-    <a
-      href="#"
-      id="scroll-top"
-      class="scroll-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
     <!-- Preloader -->
     <div id="preloader"></div>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/typed.js/typed.umd.js"></script>
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -840,12 +847,6 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
-  </body>
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+</body>
+
 </html>
